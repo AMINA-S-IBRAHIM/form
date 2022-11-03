@@ -1,0 +1,50 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #274471;
+}
+
+.container{
+    width:400px;
+    background-color: rgba(243, 243, 243);
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactForm{
+    padding: 25px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0px;
+    
+}
+
+#submit{
+    background-color: #1ac0f3;   
+    cursor: pointer;
+    color: white;
+      
+}
+
+input:hover{
+    background-color: rgb(208, 195, 227);
+}
+
+textarea{
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
